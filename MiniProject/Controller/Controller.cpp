@@ -10,9 +10,6 @@
 
 using namespace std;
 
-int billy [] = {16, 2, 77, 40, 12071};
-int n, result=0;
-
 Controller :: Controller()
 {
     
@@ -26,7 +23,10 @@ void Controller :: start()
     }
 }
 
-int main ()
+int billy [] = {16, 2, 77, 40, 12071};
+int n, result=0;
+
+int array ()
 {
     for ( n=0 ; n<5 ; n++ )
     {
@@ -34,4 +34,14 @@ int main ()
     }
     cout << result;
     return 0;
+}
+
+int pointer ()
+{
+    int var1 = 3;
+    int var2 = 24;
+    int var3 = 17;
+    cout << &var1 << endl;
+    cout << &var2 << endl;
+    cout << &var3 << endl;
 }
