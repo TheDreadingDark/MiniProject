@@ -17,31 +17,31 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for (int index = 0; index < 10; index++)
+    string name = "AJ";
+    cout << name << endl;
+    
+    for (int index = 13; index < 32; index++)
     {
-        cout << "This is the " << index << " time in the loop" << endl;
+        cout << index << endl;
     }
-}
-
-int billy [] = {16, 2, 77, 40, 12071};
-int n, result=0;
-
-int array ()
-{
-    for ( n=0 ; n<5 ; n++ )
-    {
-        result += billy [n];
-    }
-    cout << result;
-    return 0;
-}
-
-int pointer ()
-{
-    int var1 = 3;
-    int var2 = 24;
-    int var3 = 17;
-    cout << &var1 << endl;
-    cout << &var2 << endl;
-    cout << &var3 << endl;
+    
+    cout << &name << endl;
+    
+    cout << "What " << "my " << "name " << "is " << "Slim " << "Shady " << endl;
+    
+//    int billy [] = {16, 2, 77, 40, 12071};
+//    int n, result=0;
+    
+ //       for ( n=0 ; n<5 ; n++ )
+//        {
+//            result += billy [n];
+//        }
+//        cout << result;
+    
+//        int var1 = 3;
+//        int var2 = 24;
+//        int var3 = 17;
+//        cout << &var1 << endl;
+//        cout << &var2 << endl;
+//        cout << &var3 << endl;
 }
